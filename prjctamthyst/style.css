@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.ejiltalk.org/wp-content/uploads/2021/03/pexels-photo-110854.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color:white
+}
+
+header {
+    background-color: #7b25cc;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+button {
+    background-color: #fff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    border-radius: 57px;
+}
+@keyframes glow {
+  0%, 100% {
+    text-shadow: 0 0 20px #ffffff; /* Change color and spread as needed */
+  }
+}
+
+p {
+  animation: glow 1.5s infinite; /* Adjust animation duration as needed */
+  display: inline; /* Ensures that the text shadow does not overflow the paragraph box */
+}
+
